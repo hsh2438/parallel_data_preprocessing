@@ -8,4 +8,4 @@ multiprocess based parallel data processing example
 After once data loading, multi process starts for preprocessing text data. <br>
 If data file is big, loading data takes long time. <br>
 Each process creates temp file to save preprocessed text data. <br>
-If all process finish to preprocess, temp files are merged with subprocess (shell command). <br>
+If all process finish to preprocess, temp files are merged and removed using subprocess (shell command). <br>
