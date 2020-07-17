@@ -1,0 +1,1 @@
+pika  # rabbitmq client library
